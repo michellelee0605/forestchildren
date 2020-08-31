@@ -30,11 +30,6 @@ header{
     top: 0;
 }
 
-.blank{
-    padding-top:50px; 
-    background-color:transparent;
-}
-
 .container a{
     padding-right:25px;
     padding-left: 25px;
