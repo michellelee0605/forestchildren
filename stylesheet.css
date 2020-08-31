@@ -28,7 +28,10 @@ header{
     position: fixed;
     z-index: 10;
     top: 0;
-    padding-bottom:50px;
+}
+
+.blank{
+    padding-top:50px;   
 }
 
 .container a{
@@ -42,7 +45,6 @@ header{
 }
 
 .contents{
-    padding-top: 50px;
     text-align:center;
 }
     
