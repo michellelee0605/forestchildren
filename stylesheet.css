@@ -40,7 +40,11 @@ header{
     
 }
 
-
+.contents{
+    padding-top: 50px;
+    text-align:center;
+}
+    
 
 ul{
     list-style-type: none;
