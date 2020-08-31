@@ -6,14 +6,28 @@
     width: auto;
 }
 
-@media(max-width:450px){
-    width:auto;
-}
+@media(max-width:1280px){
+    .container, main, header, footer{
+        width: auto;
+        margin: 0 auto;
+    }
+    }
+
+@media(max-width:960px){
+    .container, main, header, footer{
+        width: auto;
+        margin: 0 auto;}
+    }
+    
 
 header{
    line-height: 65px;
     background-color: #336666;
     height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
 
 .container a{
@@ -146,10 +160,24 @@ footer{
    margin-bottom: 50px;
 }
 
+.introduction{
+    padding-top: 50px;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*CAMERA*/
 .cameraintro{
     margin: 30px auto;
     width: 600px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .campic{
@@ -160,7 +188,9 @@ footer{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline;
+    text-align: center;
+    float: left;
 }
 
 .menu li a{
@@ -189,4 +219,51 @@ footer{
 
 .details{
     display: none;
+}
+
+/*CITY*/
+.city img{
+    width: 500px;
+    border-radius: 4px;
+}
+
+.city{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.city:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/*HONGKONG.Osaka.Taiwan.Kyoto*/
+
+.photo h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.photo img{
+    width: 500px;
+}
+
+.photo ul{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.photo li{
+    flex: auto;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.backtocity{
+    color: black;
+    display: inline-block;
+    background: #D6F3C2;
 }
