@@ -31,7 +31,8 @@ header{
 }
 
 .blank{
-    padding-top:50px;   
+    padding-top:50px; 
+    background:none;
 }
 
 .container a{
