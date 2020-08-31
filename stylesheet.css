@@ -141,9 +141,52 @@ footer{
 .propic{
    height: 200px;
    width: 300px;
-   border-radius: 100%;
+   border-radius: 20%;
    margin-right: 200px;
    margin-bottom: 50px;
 }
 
+/*CAMERA*/
+.cameraintro{
+    margin: 30px auto;
+    width: 600px;
+}
 
+.campic{
+    width: 500px;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    color: #2E4053;
+    text-decoration: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.menu li a.active{
+    background: #03A891;
+    color: #F1F1F1;
+}
+
+.menu li a:not(.active):hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.details.active {
+    display: block;
+}
+
+.details{
+    display: none;
+}
